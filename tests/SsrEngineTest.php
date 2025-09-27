@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 use Codemonster\View\Engines\SsrEngine;
 use PHPUnit\Framework\TestCase;
-use InvalidArgumentException;
-use RuntimeException;
 
 final class SsrEngineTest extends TestCase
 {
@@ -27,14 +25,14 @@ final class SsrEngineTest extends TestCase
 
     public function testRejectsBridgeWithoutRender(): void
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::class);
 
         $engine = new SsrEngine(new class {});
     }
 
     public function testRejectsNonStringResponse(): void
     {
-        $this->expectException(RuntimeException::class);
+        $this->expectException(\RuntimeException::class);
 
         $bridge = new class {
             public function render(string $view, array $data = []): array
