@@ -1,5 +1,10 @@
 # codemonster-ru/view-ssr
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codemonster-ru/view-ssr.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/view-ssr)
+[![Total Downloads](https://img.shields.io/packagist/dt/codemonster-ru/view-ssr.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/view-ssr)
+[![License](https://img.shields.io/packagist/l/codemonster-ru/view-ssr.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/view-ssr)
+[![Tests](https://github.com/codemonster-ru/view-ssr/actions/workflows/tests.yml/badge.svg)](https://github.com/codemonster-ru/view-ssr/actions/workflows/tests.yml)
+
 SSR (Server-Side Rendering) engine for the [`codemonster-ru/view`](https://github.com/codemonster-ru/view) core.
 Delegates actual rendering to a **bridge** (preferably `codemonster-ru/ssr-bridge`).
 
