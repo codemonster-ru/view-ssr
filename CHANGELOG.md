@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.0.0] - 2025-09-28
+
+### Changed
+
+-   Updated dependencies:
+-   `codemonster-ru/view` → **^2.0** (previously ^1.1)
+-   `codemonster-ru/ssr-bridge` → **^2.0** (previously ^1.1)
+
 ## [1.0.0] - 2025-09-28
 
 ### Added
